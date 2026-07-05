@@ -31,10 +31,60 @@ body {
 }
 
 .header {
-  background-color: rebeccapurple;
+  background-color: #1a1a1a;
+
   margin-top: 1rem;
   margin-left: 15rem;
   margin-right: 15rem;
-  border-radius: 12px;
-  padding-inline: 4px;
+
+  padding: 12px;
+  border-radius: 22px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main {
+  margin-top: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading_one {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.dimmed_text {
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.actionable {
+  font-weight: bold;
+  background-color: #1a1a1a;
+  padding: 12px;
+  padding-inline: 22px;
+  border-radius: 20px;
+}
+
+.focus {
+  font-weight: bold;
+  background-color: #fff;
+  color: #050505;
+  padding: 12px;
+  padding-inline: 22px;
+  border-radius: 20px;
 }
